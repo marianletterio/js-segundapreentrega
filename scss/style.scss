@@ -1,0 +1,22 @@
+// VARIABLES
+@import "variables";
+@import "media";
+
+@mixin iconosRedes($hover){
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    &:hover {
+        color: $hover;
+    }
+}
+
+body, html {
+    height: 100%;
+}
+
+@import "header";
+@import "main";
+@import "footer";

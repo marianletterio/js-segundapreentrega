@@ -1,0 +1,47 @@
+footer{
+    background-color: $amarillo;
+
+    p{
+        font-family: $texto;
+    }
+    h5{
+    font-family: $titulo;
+    }
+    ul li a{
+        @extend p;
+    }
+    ul li a:hover {
+        font-weight: bold !important; 
+    }
+    
+    input{
+        @extend p;
+    }
+    .btn{
+        background-color: $lila;
+        color: $amarillo;
+        font-weight: bold;
+        font-family: $texto;
+    }
+    img{
+        width:100px;
+    }
+    svg{
+        color: black;
+    }
+    .bi-instagram{
+        @include iconosRedes($turquesa);
+    }
+    .bi-tiktok{
+        @include iconosRedes($verde);
+    }
+    .bi-facebook{
+        @include iconosRedes($naranja);
+    }
+    .bi-twitter{
+        @include iconosRedes($rojo);
+    }
+    .bi-pinterest{
+        @include iconosRedes($rosa);
+        }
+}

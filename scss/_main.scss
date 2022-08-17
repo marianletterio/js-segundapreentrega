@@ -1,0 +1,111 @@
+main{
+
+    p{
+        font-family: $titulo;
+        font-weight:300px;
+    }
+    
+    .nosotrxs{
+        font-family: $texto;
+        font-weight: 500px;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    h1, h2, h3, h5, h6{
+        font-family: $titulo;
+    }
+
+    h4{
+        color: $lila;
+        font-family: $titulo;
+        font-weight: bold;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    h4 span { 
+        background-color: white; 
+    }
+    .figure-caption{
+        color: $lila;
+        font-size: large;
+    }
+
+    .barra{
+        background-color: $lila;
+        h1{
+            font-family: $titulo;
+            color: $verde;
+        }
+    }
+
+    .coleccion{
+        background-color: $rosa;
+        h2{
+            color: $amarillo;
+            font-family: $titulo;
+            font-weight:400;
+        }
+    }
+
+    figcaption{
+        color: $lila;
+        background-color: white;
+        font-family: $titulo;
+        font-weight: bold;
+        h6{
+            color: $lila;
+        }
+    }
+    
+    .btn{
+        background-color: $lila;
+        color: $amarillo;
+        font-weight: bold;
+        font-family: $texto;
+    }
+
+    .fondo{
+        background-image: url("../media/seamless-happy-emoji-pattern.png");
+    }
+
+    svg{
+        color: #212529;
+    }
+    .banner{
+        background-color: $amarillo;
+        color: $lila;
+        margin-bottom: 10px;
+    }
+    input{
+        font-family: $texto;
+    }
+    .form-control{
+        @extend input;
+    }
+
+    .error{
+        background-color:#fefefe;
+    }
+
+    .mapa{
+        width:auto;
+    }
+
+    .acordeon{
+        button{
+            h2{
+                text-decoration: none;
+                color: black;
+                & collapsed{
+                    color: black;
+                }
+            }
+        }
+        p{
+            text-align: justify;
+            padding: 5px
+        };
+    }
+}

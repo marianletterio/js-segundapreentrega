@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+    nav{
+        & li{
+            &:hover{
+                transform: scale(0.9);
+                transition: 100ms ease;
+            }
+        }
+    }
+}

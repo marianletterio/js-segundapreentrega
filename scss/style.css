@@ -1,0 +1,235 @@
+@media (max-width: 768px) {
+  nav li:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-transition: 100ms ease;
+    transition: 100ms ease;
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+header nav {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300px;
+  text-decoration: none;
+  background-color: #ffcc00;
+}
+
+header nav img {
+  width: 200px;
+}
+
+header nav li :not(.dropdown-item):hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 100ms ease;
+  transition: 100ms ease;
+}
+
+header .navbar-nav li .dropdown-menu {
+  background-color: #ffcc00;
+}
+
+main p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+}
+
+main .nosotrxs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+main h1, main h2, main h3, main h5, main h6 {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main h4 {
+  color: #9c85d9;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bold;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+main h4 span {
+  background-color: white;
+}
+
+main .figure-caption {
+  color: #9c85d9;
+  font-size: large;
+}
+
+main .barra {
+  background-color: #9c85d9;
+}
+
+main .barra h1 {
+  font-family: "Lexend Deca", sans-serif;
+  color: #00ff7b;
+}
+
+main .coleccion {
+  background-color: #ff6691;
+}
+
+main .coleccion h2 {
+  color: #ffcc00;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+main figcaption {
+  color: #9c85d9;
+  background-color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bold;
+}
+
+main figcaption h6 {
+  color: #9c85d9;
+}
+
+main .btn {
+  background-color: #9c85d9;
+  color: #ffcc00;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+main .fondo {
+  background-image: url("../media/seamless-happy-emoji-pattern.png");
+}
+
+main svg {
+  color: #212529;
+}
+
+main .banner {
+  background-color: #1291d5;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+main input {
+  font-family: "Montserrat", sans-serif;
+}
+
+main .form-control {
+  font-family: "Montserrat", sans-serif;
+}
+
+main .error {
+  background-image: url("../media/error.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #ffcc00;
+}
+
+footer ul li a {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer ul li a:hover {
+  font-weight: bold !important;
+}
+
+footer h5 {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer input {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer .btn {
+  background-color: #9c85d9;
+  color: #ffcc00;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer svg {
+  color: black;
+}
+
+footer .bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .bi-instagram:hover {
+  color: #1291d5;
+}
+
+footer .bi-tiktok {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .bi-tiktok:hover {
+  color: #00ff7b;
+}
+
+footer .bi-facebook {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .bi-facebook:hover {
+  color: #f75c03;
+}
+
+footer .bi-twitter {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .bi-twitter:hover {
+  color: #fc3d20;
+}
+
+footer .bi-pinterest {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .bi-pinterest:hover {
+  color: #ff6691;
+}
+/*# sourceMappingURL=style.css.map */

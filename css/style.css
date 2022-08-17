@@ -1,0 +1,180 @@
+@media (max-width: 768px) {
+  nav li:hover {
+    transform: scale(0.9);
+    transition: 100ms ease; } }
+
+body, html {
+  height: 100%; }
+
+header nav {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300px;
+  text-decoration: none;
+  background-color: #ffcc00; }
+  header nav img {
+    width: 200px; }
+  header nav li :not(.dropdown-item):hover {
+    transform: scale(1.05);
+    transition: 100ms ease; }
+
+header .navbar-nav li .dropdown-menu {
+  background-color: #ffcc00; }
+
+header form{
+  padding-right: 15px;
+}
+
+header .bi-cart {
+  color: #000000;
+  font-size: 50px;
+  margin: 10px;
+ }
+
+main p, main footer ul li a, footer ul li main a, main footer input, footer main input, footer main .form-control, main footer .form-control {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300px; }
+
+main .nosotrxs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 1rem;
+  text-align: justify; }
+
+main h1, main h2, main h3, main h5, main h6 {
+  font-family: "Lexend Deca", sans-serif; }
+
+main h4 {
+  color: #9c85d9;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bold;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  justify-items: center; }
+
+main h4 span {
+  background-color: white; }
+
+main .figure-caption {
+  color: #9c85d9;
+  font-size: large; }
+
+main .barra {
+  background-color: #9c85d9; }
+  main .barra h1 {
+    font-family: "Lexend Deca", sans-serif;
+    color: #00ff7b; }
+
+main .coleccion {
+  background-color: #ff6691; }
+  main .coleccion h2 {
+    color: #ffcc00;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400; }
+
+main figcaption {
+  color: #9c85d9;
+  background-color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bold; }
+  main figcaption h6 {
+    color: #9c85d9; }
+
+main .btn {
+  background-color: #9c85d9;
+  color: #ffcc00;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
+
+main .botonComprar {
+  background-color: #9c85d9;
+  color: #ffcc00;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+ }
+
+main .fondo {
+  background-image: url("../media/seamless-happy-emoji-pattern.png"); }
+
+main svg {
+  color: #212529; }
+
+main .banner {
+  background-color: #ffcc00;
+  color: #9c85d9;
+  margin-bottom: 10px; }
+
+main input, main .form-control {
+  font-family: "Montserrat", sans-serif; }
+
+main .error {
+  background-color: #fefefe; }
+
+main .mapa {
+  width: auto; }
+
+main .acordeon button h2 {
+  text-decoration: none;
+  color: black; }
+  main .acordeon button h2 collapsed {
+    color: black; }
+
+main .acordeon p, main .acordeon footer ul li a, footer ul li main .acordeon a, main .acordeon footer input, footer main .acordeon input, footer main .acordeon .form-control, main .acordeon footer .form-control, main footer .acordeon .form-control {
+  text-align: justify;
+  padding: 5px; }
+
+footer {
+  background-color: #ffcc00; }
+  footer p, footer ul li a, footer input, footer main .form-control, main footer .form-control {
+    font-family: "Montserrat", sans-serif; }
+  footer h5 {
+    font-family: "Lexend Deca", sans-serif; }
+  footer ul li a:hover {
+    font-weight: bold !important; }
+  footer .btn {
+    background-color: #9c85d9;
+    color: #ffcc00;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif; }
+  footer img {
+    width: 100px; }
+  footer svg {
+    color: black; }
+  footer .bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; }
+    footer .bi-instagram:hover {
+      color: #1291d5; }
+  footer .bi-tiktok {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; }
+    footer .bi-tiktok:hover {
+      color: #00ff7b; }
+  footer .bi-facebook {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; }
+    footer .bi-facebook:hover {
+      color: #f75c03; }
+  footer .bi-twitter {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; }
+    footer .bi-twitter:hover {
+      color: #fc3d20; }
+  footer .bi-pinterest {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px; }
+    footer .bi-pinterest:hover {
+      color: #ff6691; }
