@@ -7,6 +7,7 @@ prendas = [
         "precio": 6900,
         "talle": "S - M - L",
         "img": "buzoeyes.jpg",
+        "cantidad": 1
     },
     {
         "id": 2,
@@ -15,6 +16,7 @@ prendas = [
         "precio": 14900,
         "talle": "S - M - L",
         "img": "camperadogs.jpg",
+        "cantidad": 1
     },
     {
         "id": 3,
@@ -23,6 +25,8 @@ prendas = [
         "precio": 3900,
         "talle": "S - M - L",
         "img": "remerajungle.jpg",
+        "cantidad": 1
+
     },
     {
         "id": 4,
@@ -31,6 +35,8 @@ prendas = [
         "precio": 800,
         "talle": "S - M - L",
         "img": "camisadaisy.jpg",
+        "cantidad": 1
+
     },
     {
         "id": 5,
@@ -39,6 +45,8 @@ prendas = [
         "precio": 12900,
         "talle": "S - M - L",
         "img": "sweaterlazy.jpg",
+        "cantidad": 1
+
     },
     {
         "id": 6,
@@ -47,5 +55,7 @@ prendas = [
         "precio": 10900,
         "talle": "S - M - L",
         "img": "camisapatchwork.jpg",
+        "cantidad": 1
+
     }
 ]
